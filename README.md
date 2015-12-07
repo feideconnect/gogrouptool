@@ -1,11 +1,8 @@
 # LDAP Test utility
 
 
-Prepare app for usage:
+To use this client, you will need to register a client with the sufficient scopes. Use the client ID in the authorization url below:
 
-	select status, scopes, scopes_requested from clients where id = 01a2c2ea-a888-48d4-bb8f-1ed81d1cde5b;
-	SELECT id, status, name,scopes,scopes_requested FROM clients WHERE id =  c148bc3f-6b15-47d7-ad23-3c36677eb8b5;
-	UPDATE clients set status = {'Mandatory'} where id =  c148bc3f-6b15-47d7-ad23-3c36677eb8b5;
 
 Dependencies
 

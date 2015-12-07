@@ -1,7 +1,6 @@
 # LDAP Test utility
 
-
-To use this client, you will need to register a client with the sufficient scopes. Use the client ID in the authorization url below:
+To use this utility, you will need to register a client with the sufficient scopes. Use the client ID in the authorization url below:
 
 
 Dependencies

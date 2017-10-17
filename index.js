@@ -33,7 +33,7 @@ var matcher = function(str, objref) {
 // Main testing class.
 var Tester = function(token) {
 	this.token = token;
-	this.url = 'https://api.feideconnect.no/userinfo/v1/userinfo';
+	this.url = 'https://api.dataporten.no/userinfo/v1/userinfo';
 	this.all = null;
 };
 

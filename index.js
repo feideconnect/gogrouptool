@@ -5,13 +5,13 @@ var colors = require('colors');
 
 
 
-var 
+var
 	PrefixMatch = require('./lib/PrefixMatch').PrefixMatch,
 	GOGroup = require('./lib/GOGroup').GOGroup;
 
 
 /*
- * Call the correct verify function based upon prefix, 
+ * Call the correct verify function based upon prefix,
  * with the remaining part as the argument
  */
 var matcher = function(str, objref) {
@@ -127,6 +127,3 @@ t.run()
 		console.error("ERROR ", err.stack);
 		console.error(err);
 	});
-
-
-

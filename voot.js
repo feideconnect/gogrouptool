@@ -3,7 +3,7 @@
 var request = require('request');
 var colors = require('colors');
 
-var 
+var
 	VOOT = require('./lib/VOOT').VOOT;
 
 var Tester = function(token) {
@@ -29,6 +29,3 @@ t.run()
 		console.error("ERROR ", err.stack);
 		console.error(err);
 	});
-
-
-
